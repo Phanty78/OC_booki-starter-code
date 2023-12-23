@@ -99,9 +99,13 @@ header{
 
 .nav-menu{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 68px;
     margin: 0;
+}
+
+nav ul{
+    padding: 0;
 }
 
 .nav-menu li{
@@ -502,9 +506,17 @@ footer{
         max-width: 200px;
     }
 
+    .research-container{
+        justify-content: center;
+    }
+
     .superior-filter-container{
         flex-direction: column;
         justify-content: flex-start;
+    }
+
+    .filter-container{
+        gap: 10px;
     }
 
     .hebergements-and-populaires {
@@ -549,7 +561,7 @@ footer{
         width: 49px;
         border-radius: 15px;
         position: relative;
-        right: 5px;
+        right: 10px;
     }
 
     #research-submit-mini{
