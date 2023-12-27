@@ -156,6 +156,12 @@ nav ul{
     align-items: center;
 }
 
+.information-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 /****** Research Bar *******/
 
 .research-container{
@@ -509,6 +515,7 @@ footer{
         padding :   0 0 16px 0;
         width: 100%;
         flex: 1 0 0;
+        border-bottom: 2px solid #F2F2F2;  
     }
 
     .nav-menu li:hover{
